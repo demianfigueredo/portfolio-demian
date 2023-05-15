@@ -1,0 +1,77 @@
+$white: #f0f0f0;
+$yellow:#FFF27A;
+
+.presentation {
+    padding: 0 20%;
+    margin: 150px 0 100px 0;
+
+    .name, .bio, .social-media {
+        margin: 10px 0;
+        justify-content: space-between;
+    }
+
+    .name {
+        align-items: baseline;
+        width: 100%;
+        height: 20%;
+
+        h1 {
+            font-size: 75px;
+            font-weight: 600;
+        }
+
+    }
+
+    .bio {
+        width: 100%;
+        font-size: 25px;
+        font-weight: 500;
+
+        #title {
+            text-align: left;
+        }
+
+        #short-des {
+            text-align: right;
+        }
+    }
+
+    .social-media {
+        font-size: 20px;
+        font-weight: 500;
+        width: 100%;
+
+        p {
+            text-align: left;
+        }
+
+        .separator {
+            width: 60%;
+        }
+
+        .sm-icons {
+            width: 15%;
+            justify-content: space-between;
+
+            .gh-icon {
+                background-color: $white;
+                -webkit-mask: url(../../icons/gh.svg) no-repeat center;
+                mask: url(../../icons/gh.svg) no-repeat center;
+            }
+
+            .in-icon {
+                background-color: $white;
+                -webkit-mask: url(../../icons/in.svg) no-repeat center;
+                mask: url(../../icons/in.svg) no-repeat center;
+            }
+
+            .ig-icon {
+                background-color: $white;
+                -webkit-mask: url(../../icons/ig.svg) no-repeat center;
+                mask: url(../../icons/ig.svg) no-repeat center;
+            }
+        }
+
+
+    }
+}

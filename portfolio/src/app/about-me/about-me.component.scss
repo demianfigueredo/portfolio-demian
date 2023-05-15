@@ -1,0 +1,42 @@
+$white:#f0f0f0;
+$yellow:#FFF27A;
+
+.about-me {
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    .border-profile-pic {
+        width: 25%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        border: 2pt solid $yellow;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .profile-pic {
+            width: 90%;
+            height: 90%;
+            border-radius: 50%;
+            background-image: url(../../icons/profile.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .about-me-txt {
+        width: 65%;
+
+        h1 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 20px;
+        }
+    }
+}

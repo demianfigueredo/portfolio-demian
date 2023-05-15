@@ -1,0 +1,44 @@
+$white:#f0f0f0;
+$yellow:#FFF27A;
+
+.education {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+    .title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+
+    .txt-box {
+        align-items: start;
+        padding: 35px;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        .first-line {
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 10px;
+            
+            .modality {
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+
+        .date {
+            font-size: 18px;
+            font-weight: 500; 
+            margin-bottom: 10px;
+        }
+
+        .institute {
+            font-size: 23px;
+            font-weight: 500;
+        }
+    }
+}

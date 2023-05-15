@@ -1,0 +1,32 @@
+$white:#f0f0f0;
+$yellow: #FFF27A;
+
+header {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2pt solid $white;
+    margin-bottom: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    .logo {
+        height: 60%;
+        width: 200px;
+        background-image: url(../../icons/logo.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 0 60px;
+    }
+
+    .si {
+        height: 40%;
+        padding: 0 10px;
+        border-radius: 10px;
+        margin: 0 60px;
+    }
+}

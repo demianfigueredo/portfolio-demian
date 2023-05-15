@@ -1,0 +1,68 @@
+$white:#f0f0f0;
+$yellow:#FFF27A;
+
+.skills {
+    width: 70%;
+    justify-content: center;
+
+    .title {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+
+    .skills-ct {
+        width: 100%;
+        justify-content: center;
+        display: grid; 
+        grid-template-columns: 250px 250px 250px; 
+        grid-template-rows: 250px 250px 250px; 
+        gap: 50px 50px; 
+
+        .skill {
+            width: 250px;
+            height: 250px;
+            background-color: black;
+            border: 2pt solid $yellow;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+
+            .skill-ico {
+                width: 90%;
+                height: 90%;
+                border-radius: 50%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            .html {
+                background-image: url(../../assets/skill-html.svg);
+            }
+
+            .css {
+                background-image: url(../../assets/skill-css.svg);
+            }
+
+            .js {
+                background-image: url(../../assets/skill-js.svg);
+            }
+
+            .speech {
+                background-image: url(../../assets/skill-speech.svg);
+            }
+
+            .teamwork {
+                background-image: url(../../assets/skill-teamwork.svg);
+            }
+
+            .github {
+                background-image: url(../../assets/skill-gh.svg);
+            }
+        }
+    }
+}

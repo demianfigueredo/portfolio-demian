@@ -1,0 +1,68 @@
+$white:#f0f0f0;
+$yellow:#FFF27A;
+
+* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signin {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto 100px auto;
+
+    h1 {
+        margin-bottom: 15px;
+    }
+
+    .form {
+        padding: 40px;
+        width: 20%;
+    }
+
+    .email, .pass {
+        border: 2pt solid $white;
+        border-radius: 10px;
+        width: 70%;
+        height: 25px;
+        background: none;
+        margin: 15px 0;
+        padding: 5px 10px;
+        font-size: 15px;
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
+
+    ::placeholder {
+        margin: 5px;
+    }
+
+    .signin-btn {
+        border: 2pt solid $yellow;
+        color: $yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+        width: 70%;
+        height: 40px;
+        background: none;
+        padding: 0 10px;
+        border-radius: 10px;
+        margin: 10px 60px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 500;
+
+        &:hover {
+            background-color: $yellow;
+            color: black;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<div class="experience w-txt">
+
+    <h1 class="title w-txt">experiencia.</h1>
+    
+    <div *ngFor="let job of jobs" class="txt-box experience-txt">
+        <div class="first-line ct-row">
+            <h1 class="job">{{job.name}}</h1>
+            <h3 class="modality y-txt">{{job.modality}}</h3>
+        </div>
+        <p class="date y-txt">{{job.start_date}} · {{job.end_date}}</p>
+        <p class="tasks w-txt">{{job.description}}</p>
+    </div>
+
+</div>

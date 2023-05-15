@@ -1,0 +1,14 @@
+<div class="education w-txt">
+
+    <h1 class="title w-txt">educación.</h1>
+    
+    <div *ngFor="let diploma of diplomas" class="txt-box education-txt">
+        <div class="first-line ct-row">
+            <h1 class="diploma">{{diploma.name}}</h1>
+            <h3 class="modality y-txt">{{diploma.modality}}</h3>
+        </div>
+        <p class="date y-txt">{{diploma.start_date}} · {{diploma.end_date}}</p>
+        <p class="institute w-txt">{{diploma.institute}}</p>
+    </div>
+
+</div>

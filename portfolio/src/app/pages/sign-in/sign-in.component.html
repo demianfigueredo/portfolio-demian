@@ -1,0 +1,10 @@
+<div class="signin">
+    <form class="txt-box form" [formGroup]="signinForm" (ngSubmit)="signIn()">
+        <h1 class="w-txt">ingresar.</h1>
+    
+        <input class="email w-txt" type="email" formControlName="email" placeholder="correo electrónico">
+        <input class="pass w-txt" type="password" formControlName="password" placeholder="contraseña"> 
+        
+        <input type="sumbit" class="button-w-border signin-btn pointer" value="ingresar">
+    </form>
+</div>

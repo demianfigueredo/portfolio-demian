@@ -1,0 +1,53 @@
+$white:#f0f0f0;
+$yellow:#FFF27A;
+
+footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2pt solid $white;
+    width: 100%;
+    height: 85px;
+    left: 0;
+    bottom: 0;
+    padding: 35px 0;
+
+    .rights {
+       font-size: 15px;
+       text-align: center;
+    }
+
+    .signature {
+        font-size: 12px;
+    }
+
+    .sm-icons {
+        width: 20%;
+        justify-content: center;
+
+        .gh-icon {
+            background-color: $white;
+            -webkit-mask: url(../../icons/gh.svg) no-repeat center;
+            mask: url(../../icons/gh.svg) no-repeat center;
+            margin: 0 10px;
+        }
+
+        .in-icon {
+            background-color: $white;
+            -webkit-mask: url(../../icons/in.svg) no-repeat center;
+            mask: url(../../icons/in.svg) no-repeat center;
+            margin: 0 10px;
+        }
+
+        .ig-icon {
+            background-color: $white;
+            -webkit-mask: url(../../icons/ig.svg) no-repeat center;
+            mask: url(../../icons/ig.svg) no-repeat center;
+            margin: 0 10px;
+        }
+    }
+
+    
+    
+}
